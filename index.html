@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Rentalcars.com</title>
+</head>
+
+<body>
+
+    <div style="padding: 5%;">
+        <!-- Yellow container -->
+        <div id="container" class="yellowcontainer">
+            <section class="searchEntry">
+                <h2>Where are you going?</h2>
+                <form id="searchBar" class="wrapper" role="search">
+                    <label for="search">Pick-up Location</label>
+                    <input type="text" class="search" placeholder="city, airport, station, region and district..." name="search" id="search" aria-label="city, airport, station, region and district..." autocomplete="off" aria-autocomplete="list" aria-haspopup="true" role="searchbox"
+                        aria-required="true">
+                    <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="Clear search terms">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </form>
+
+            </section>
+            <section class="results">
+                <div class="statsBar">
+                    <div id="stats" class="stats" aria-live="assertive"></div>
+                </div>
+                <div id="searchResults" class="searchResults"></div>
+            </section>
+
+
+        </div>
+
+</body>
+<script src="js/index.js" type="module"></script>
+
+</html>

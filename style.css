@@ -1,0 +1,141 @@
+body {
+    font-family: ubuntu, Helvetica, Arial, sans-serif!important;
+}
+
+.yellowcontainer {
+    background-color: #f3ce56;
+    padding: 5%;
+    text-align: left;
+    border-radius: 3px;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.3em;
+    text-shadow: none;
+    padding-bottom: 10px;
+    font-weight: 700!important;
+    margin: 0px;
+}
+
+label {
+    color: #444;
+    text-shadow: none;
+    display: block;
+}
+
+.search {
+    padding: 12px 8% 12px 2%;
+    width: 90%;
+    line-height: 15px;
+    height: auto;
+    float: none;
+    margin-top: 15px;
+}
+
+.results {
+    margin: 10px;
+}
+
+.stats {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.searchResults {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 992px) {
+    h2 {
+        font-size: 1.5em;
+        line-height: 1.3em;
+        text-shadow: none;
+        padding-bottom: 10px;
+        font-weight: 700!important;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.3em;
+        line-height: 1.2em;
+        text-shadow: none;
+        padding-bottom: 10px;
+        font-weight: 700!important;
+        margin: 0px;
+    }
+    .search {
+        padding: 8px 8% 8px 2%;
+        width: 90%;
+        line-height: 15px;
+        height: auto;
+        float: none;
+        margin-top: 15px;
+    }
+    label {
+        color: #444;
+        text-shadow: none;
+        display: block;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .yellowcontainer {
+        background-color: #f3ce56;
+        padding: 15% 10%;
+        text-align: center;
+        border-radius: 3px;
+    }
+    h2 {
+        font-size: 1.6em;
+        line-height: 1.5em;
+        text-shadow: none;
+        padding-bottom: 10px;
+        font-weight: 700!important;
+        margin: 0px;
+    }
+    .search {
+        padding: 8px 8% 8px 2%;
+        width: 90%;
+        line-height: 15px;
+        height: auto;
+        float: none;
+        margin-top: 15px;
+    }
+    label {
+        color: #444;
+        text-shadow: none;
+        display: block;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 403px) {
+    h2 {
+        font-size: 1.4em;
+        line-height: 1.5em;
+        text-shadow: none;
+        padding-bottom: 10px;
+        font-weight: 700!important;
+        margin: 0px;
+    }
+    .search {
+        padding: 7px 8% 7px 2%;
+        width: 90%;
+        line-height: 15px;
+        height: auto;
+        float: none;
+        margin-top: 15px;
+    }
+    label {
+        color: #444;
+        text-shadow: none;
+        display: block;
+        font-size: 13px;
+    }
+}
